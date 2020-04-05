@@ -1,9 +1,11 @@
-$bg: #151a22;
+$bg: rgb(29,36,47);
+$green: #42b883;
 
 .App {
     font-family: consolas;
+    overflow: hidden;
     div {
-        font-size: 1.05em;
+        font-size: 1.1em;
     }
 }
 .title {
@@ -24,6 +26,26 @@ $bg: #151a22;
     .about-wrap {
         color: lighten($bg, 65%);
         text-align: center;
+    }
+    .invite {
+        background-color: $green;
+        width: fit-content;
+        border-radius: 10px;
+        margin: 1em auto;
+        padding: 0.5em;
+        transition: 0.3s;
+        a {
+            margin: 1em;
+            color: white;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+        &:hover {
+            background-color: white;
+            a {
+                color: $bg;
+            }
+        }
     }
     .discord-wrap {
         iframe {
