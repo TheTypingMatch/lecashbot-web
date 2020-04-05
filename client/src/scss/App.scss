@@ -44,7 +44,10 @@ $green: #42b883;
             text-decoration: none;
         }
         &:hover {
+            top: -5px;
+            position: relative;
             background-color: white;
+            box-shadow: 0 25px 25px rgba(0, 0, 0, 0.5);
             a {
                 color: $bg;
             }
