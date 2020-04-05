@@ -18,6 +18,11 @@ app.use(bodyParser.urlencoded({ extended: true }))
 // Middleware
 app.use((req, res, next) => next())
 
+app.get('/fetchCommands', (req, res) => {
+    const commands = require('../config/commands')
+    res.status(200).send(commands)
+})
+
 app.get('*', (req, res) => {
     res.status(200).sendFile('index.html', {
         root: __dirname + '/../client/public'

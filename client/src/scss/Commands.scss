@@ -1,0 +1,20 @@
+$bg: #151a22;
+
+.commands-wrap {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 50vw;
+    line-height: 1.5em;
+    code {
+        padding: 2px;
+        border-radius: 5px;
+        background-color: lighten($bg, 10%);
+    }
+}
+
+@media (max-width: 1000px) {
+    .commands-wrap {
+        max-width: 80vw;
+    }
+}

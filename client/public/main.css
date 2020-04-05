@@ -1,0 +1,8 @@
+html {
+    background: rgb(21,26,34);
+    background: linear-gradient(180deg, rgba(21,26,34,1) 0%, rgba(14,18,23,1) 100%);
+}
+body {
+    color: white;
+    margin: 0;
+}
