@@ -9,9 +9,10 @@ $green: #42b883;
     }
 }
 .title {
-    font-size: 5vh;
     width: 100vw;
     height: 50vh;
+    font-size: 5vh;
+    margin-top: 10vh;
     text-align: center;
     .logo {
         height: 35vh;
@@ -20,6 +21,7 @@ $green: #42b883;
     }
 }
 .info-wrap {
+    margin-bottom: 15vh;
     h1 {
         text-align: center;
     }
@@ -30,10 +32,11 @@ $green: #42b883;
     .invite {
         background-color: $green;
         width: fit-content;
-        border-radius: 10px;
-        margin: 1em auto;
         padding: 0.5em;
         transition: 0.3s;
+        margin: 5vh auto;
+        margin-bottom: 35vh;
+        border-radius: 10px;
         a {
             margin: 1em;
             color: white;
