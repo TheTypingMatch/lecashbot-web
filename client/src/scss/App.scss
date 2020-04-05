@@ -57,6 +57,27 @@ $green: #42b883;
         iframe {
             display: block;
             margin: 0 auto;
+            width: 20vw;
+        }
+    }
+}
+
+@media (max-width: 1920px) and (min-width: 1000px) {
+    .info-wrap {
+        .discord-wrap {
+            iframe {
+                width: 50vw;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .info-wrap {
+        .discord-wrap {
+            iframe {
+                width: 80vw;
+            }
         }
     }
 }

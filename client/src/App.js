@@ -21,7 +21,7 @@ function App() {
         <Commands />
         <h1>Discord</h1>
         <div className="discord-wrap">
-          <iframe src="https://discordapp.com/widget?id=689241652916912138&theme=dark" width="350" height="500" allowtransparency="true" frameBorder="0"></iframe>
+          <iframe src="https://discordapp.com/widget?id=689241652916912138&theme=dark" height="500" allowtransparency="true" frameBorder="0"></iframe>
         </div>
       </div>
     </div>

@@ -13,6 +13,12 @@ $bg: rgb(29,36,47);
     }
 }
 
+@media (max-width: 1920px) and (min-width: 1000px) {
+    .commands-wrap {
+        max-width: 50vw;
+    }
+}
+
 @media (max-width: 1000px) {
     .commands-wrap {
         max-width: 80vw;
