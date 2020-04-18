@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="title">
-        <img className="logo" src="assets/lecashbot.png" />
+        <img alt="" className="logo" src="assets/lecashbot.png" />
         <br />
         LeCashBot
       </h1>
@@ -16,7 +16,7 @@ function App() {
           LeCashBot is a Discord.js bot based on the NitroType currency.
         </div>
         <h1 className="invite">
-          <a target="_blank" href="https://discordapp.com/api/oauth2/authorize?client_id=586645522614583306&permissions=134073664&scope=bot">Invite</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://discordapp.com/api/oauth2/authorize?client_id=586645522614583306&permissions=134073664&scope=bot">Invite</a>
         </h1>
         <Commands />
         <h1>Discord</h1>

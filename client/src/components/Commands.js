@@ -12,11 +12,8 @@ class Commands extends React.Component {
         }
     }
     componentDidMount() {
-        fetch('/fetchCommands')
-            .then(res => res.json())
-            .then(res => this.setState({ commands: res }))
-            .then(res => console.log(this.state.commands))
-            .catch(err => console.log(`ERROR: ${err}`));
+        const commands = require('../commands')
+        this.setState({ commands: commands })
     }
     render() {
         let cmds = this.state.commands.map(cmd => <li><code>${cmd.name}</code> - {cmd.desc}</li>);
