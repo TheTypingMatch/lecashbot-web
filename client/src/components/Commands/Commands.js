@@ -1,5 +1,5 @@
 import React from 'react';
-import '../scss/Commands.scss';
+import './Commands.scss';
 
 class Commands extends React.Component {
     constructor() {
