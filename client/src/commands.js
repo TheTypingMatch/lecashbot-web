@@ -4,6 +4,14 @@ module.exports = [
         desc: 'Important bot information.'
     }, 
     {
+        name: 'stats',
+        desc: 'Show the bot stats.'
+    },
+    {
+        name: 'ping', 
+        desc: 'Show bot latency.'
+    },
+    {
         name: 'daily', 
         desc: 'Collect daily cash.'
     }, 
@@ -39,6 +47,10 @@ module.exports = [
         name: 'register', 
         desc: 'Make an account on LeCashBot using your NitroType account.'
     }, 
+    {
+        name: 'delete',
+        desc: 'Delete your LeCashBot account.'
+    },
     {
         name: 'report', 
         desc: 'Report a bug in the bot.'

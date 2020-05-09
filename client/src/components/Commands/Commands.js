@@ -12,7 +12,7 @@ class Commands extends React.Component {
         }
     }
     componentDidMount() {
-        const commands = require('../commands')
+        const commands = require('../../commands')
         this.setState({ commands: commands })
     }
     render() {

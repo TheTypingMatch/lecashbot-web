@@ -46,6 +46,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "eslint": "^7.0.0",
     "path": "^0.12.7",
     "typescript": "^3.8.3",
