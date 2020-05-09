@@ -1,0 +1,33 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "parser": "babel-eslint",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "no-return-assign": 0,
+        "no-undef": 0,
+        "no-eval": 0, 
+        "no-unused-vars": 1,
+        "array-callback-return": 1, 
+        "eqeqeq": 1, 
+        "array-bracket-newline": 1, 
+        "brace-style": 1, 
+        "camelcase": 1, 
+        "comma-spacing": 1, 
+        "no-var": 1, 
+        "indent": ["error", 4, { "SwitchCase": 1 }]
+    }
+}

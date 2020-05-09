@@ -2,11 +2,12 @@
   "name": "le-cash-bot-web",
   "version": "1.0.0",
   "description": "The official website for LeCashBot",
-  "main": "index.js",
+  "main": "./server/index.js",
   "scripts": {
     "test": "jest --passWithNoTests",
     "start": "node server/server.js",
-    "build": "webpack --mode=development"
+    "build": "webpack --mode=development",
+    "lint": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -22,11 +23,21 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "css-loader": "^3.4.2",
-    "dotenv": "^8.2.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.1",
     "express": "^4.17.1",
     "jest": "^25.2.6",
     "node-sass": "^4.13.1",
@@ -35,6 +46,9 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
+    "eslint": "^7.0.0",
+    "path": "^0.12.7",
+    "typescript": "^3.8.3",
     "webpack": "^4.42.1"
   }
 }
