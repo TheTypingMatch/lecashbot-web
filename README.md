@@ -36,8 +36,20 @@ $ yarn install
 $ cd client
 $ yarn install
 $ cd ..
+```
+3. Start the application:
+```
+$ cd client
 $ yarn build
 $ yarn start
+```
+or for Windows:
+```
+$ ./run
+```
+or for Linux:
+```
+$ sh run.sh
 ```
 
 ## Contributors
