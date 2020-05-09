@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.scss';
 import Commands from '../Commands/Commands';
+import Links from '../Links/Links';
 
 function App() {
   return (
     <div className="App">
+      <Links />
       <h1 className="title">
         <img alt="" className="logo" src="assets/lecashbot.png" />
         <br />

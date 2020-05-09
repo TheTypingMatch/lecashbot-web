@@ -1,0 +1,13 @@
+.links-wrap {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: 1vh auto;
+}
+.img {
+    margin: 1em 2em;
+    transition: 0.3s;
+    &:hover {
+        opacity: 0.85;
+    }
+}
