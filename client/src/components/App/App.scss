@@ -1,5 +1,6 @@
 $bg: rgb(29,36,47);
-$green: #42b883;
+$green: #43c78b;
+$pink: #F47FFF;
 
 .App {
     font-family: consolas;
@@ -29,28 +30,38 @@ $green: #42b883;
         color: lighten($bg, 65%);
         text-align: center;
     }
-    .invite {
-        background-color: $green;
+    .button-wrap {
+        display: flex;
         width: fit-content;
-        padding: 0.5em;
-        transition: 0.3s;
-        margin: 5vh auto;
+        margin: 4vh auto;
         margin-bottom: 35vh;
-        border-radius: 10px;
-        a {
-            margin: 1em;
-            color: white;
+        h1 {
+            margin: 0 0.5em;
+            width: fit-content;
+            padding: 0.5em;
             transition: 0.3s;
-            text-decoration: none;
-        }
-        &:hover {
-            top: -5px;
-            position: relative;
-            background-color: white;
-            box-shadow: 0 25px 25px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
             a {
-                color: $bg;
+                margin: 1em;
+                color: white;
+                transition: 0.3s;
+                text-decoration: none;
             }
+            &:hover {
+                top: -5px;
+                position: relative;
+                background-color: white;
+                box-shadow: 0 25px 25px rgba(0, 0, 0, 0.5);
+                a {
+                    color: $bg;
+                }
+            }
+        }
+        .invite {
+            background-color: $green;
+        }
+        .sponsor {
+            background-color: $pink;
         }
     }
     .discord-wrap {

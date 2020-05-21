@@ -17,13 +17,22 @@ function App() {
         <div className="about-wrap">
           LeCashBot is a Discord.js bot based on the NitroType currency.
         </div>
-        <h1 className="invite">
-          <a 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            href="https://discordapp.com/api/oauth2/authorize?client_id=586645522614583306&permissions=134073664&scope=bot"
-          >Invite</a>
-        </h1>
+        <div className="button-wrap">
+          <h1 className="invite">
+            <a 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              href="https://discordapp.com/api/oauth2/authorize?client_id=586645522614583306&permissions=134073664&scope=bot"
+            >Invite</a>
+          </h1>
+          <h1 className="sponsor">
+            <a 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              href="" /* Sponsor link */
+              >Sponsor</a>
+          </h1>
+        </div>
         <Commands />
         <h1>Discord</h1>
         <div className="discord-wrap">
