@@ -1,4 +1,5 @@
 const path = require('path')
+const TerserPlugin = require('terser-webpack-plugin')
 
 module.exports = {
     cache: true,
@@ -7,6 +8,18 @@ module.exports = {
     output: {
         path: path.resolve('./client/public'),
         filename: 'bundle.js'
+    },
+    optimization: {
+        minimizer: [
+            new TerserPlugin({
+                terserOptions: {
+                    output: {
+                        comments: false
+                    }
+                },
+                sourceMap: true
+            })
+        ]
     },
     module: {
         rules: [
@@ -25,5 +38,6 @@ module.exports = {
                 use: ['style-loader', 'css-loader', 'sass-loader']
             }
         ]
-    }
+    },
+    mode: 'production'
 }

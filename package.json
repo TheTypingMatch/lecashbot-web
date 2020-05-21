@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --passWithNoTests",
     "start": "node server/server.js",
-    "build": "webpack --mode=development",
+    "build": "webpack --mode=production",
     "lint": "eslint . --fix"
   },
   "repository": {
@@ -49,6 +49,7 @@
     "dotenv": "^8.2.0",
     "eslint": "^7.0.0",
     "path": "^0.12.7",
+    "terser-webpack-plugin": "^3.0.1",
     "typescript": "^3.8.3",
     "webpack": "^4.42.1"
   }
