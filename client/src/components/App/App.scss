@@ -32,6 +32,7 @@ $pink: #F47FFF;
     }
     .button-wrap {
         display: flex;
+        max-width: 80vw;
         width: fit-content;
         margin: 4vh auto;
         margin-bottom: 35vh;
@@ -80,6 +81,9 @@ $pink: #F47FFF;
                 width: 50vw;
             }
         }
+        .button-wrap > h1 {
+            font-size: 150%;
+        }
     }
 }
 
@@ -90,5 +94,8 @@ $pink: #F47FFF;
                 width: 80vw;
             }
         }
+    }
+    .button-wrap > h1 {
+        font-size: 100%;
     }
 }
