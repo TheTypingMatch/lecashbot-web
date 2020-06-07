@@ -14,9 +14,9 @@
 </p>
 <p align="center">
   <a href="#features">Features</a>
-  <span>-</span>
+  <span>•</span>
   <a href="#contribute">Contribute</a>
-  <span>-</span>
+  <span>•</span>
   <a href="#contributors">Contributors</a>
 </p>
 
