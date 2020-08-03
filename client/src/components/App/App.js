@@ -29,7 +29,7 @@ function App() {
             <a 
               target="_blank" 
               rel="noopener noreferrer" 
-              href="" /* Sponsor link */
+              href="https://www.patreon.com/LeSirH"
               >Sponsor</a>
           </h1>
         </div>
